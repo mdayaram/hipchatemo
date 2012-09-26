@@ -15,7 +15,7 @@ $("/html") {
     $("./a") {
       remove()
     }
-    #@import extras.ts
+    @import extras.ts
   }
 }
 

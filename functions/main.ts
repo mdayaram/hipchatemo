@@ -242,3 +242,12 @@
     }
   }
 }
+
+@func XMLNode.add_icon(Text %name) {
+  %asciicon = concat("(", %name, ")")
+	insert_top("a", href: concat("#", %asciicon), onclick: concat("prompt('Copy this:', '", %asciicon, "'); return false;"))
+	$("./a[1]") {
+		insert("img", src: asset(concat("images/", %name, ".png")), alt: %asciicon, style: "width:20px; height: 25px")
+		insert("div", class: "shortcut", %asciicon)
+	}
+}
