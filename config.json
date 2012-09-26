@@ -1,5 +1,6 @@
 {
 	"host_map": [
-		"$.hipchat-emoticons.nyh.name => hipchat-emoticons.nyh.name"
+		"emo.hazasite.com => hipchat-emoticons.nyh.name",
+		"emo.hazasite.net => hipchat-emoticons.nyh.name"
 	]
 }

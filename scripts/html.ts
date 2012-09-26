@@ -11,5 +11,11 @@ $("/html") {
   @import sections/footer.ts
 
   @import mappings.ts
+  $("./body/div[2]") {
+    $("./a") {
+      remove()
+    }
+    #@import extras.ts
+  }
 }
 
