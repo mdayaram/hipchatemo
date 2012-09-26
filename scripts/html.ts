@@ -25,5 +25,14 @@ $("/html") {
     }
     @import extras.ts
   }
+
+	$("./body/footer") {
+		insert_bottom("br")
+		insert_bottom("br")
+	}
+
+	$("./body") {
+		insert_bottom("div", class: "moovweb_footer", "Site Powered by <a href='http://moovweb.com'><b>Moovweb</b></a>")
+	}
 }
 
