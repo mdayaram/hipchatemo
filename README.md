@@ -9,3 +9,4 @@ or to run your server with the `-auto-hosts=true` option.
 
     127.0.0.1 	emo.hazasite.com
     127.0.0.1 	emo.hazasite.net
+
