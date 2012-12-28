@@ -11,6 +11,11 @@ $("/html") {
   @import sections/footer.ts
 
   @import mappings.ts
+
+	$("head/title") {
+		inner("Testing Update")
+	}
+
 	$("./body/h2") {
 		inner("Custom Moovweb Emoticons")
 	}
