@@ -20,7 +20,7 @@ $("/html") {
 		inner("These are custom emoticons for Moovweb's HipChat account.  You can add/edit them <a href='https://hipchat.com/admin/emoticons'>here</a>.")
 	}
 
-  $("./body/div[2]") {
+  $("./body/div[contains(@class, 'emoticons')][2]") {
     $("./a") {
       remove()
     }
